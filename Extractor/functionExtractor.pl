@@ -44,5 +44,4 @@ open FH3,"C:/Users/Visvanathan/Desktop/dictionary1.txt" or die $!;
 foreach $printline(<FH2>)
 {
 	print $printline, "\n";
-	if($final=~/
 }
